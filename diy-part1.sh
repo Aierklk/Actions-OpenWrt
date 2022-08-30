@@ -22,6 +22,6 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # Add cloudreve
 cd package
 git clone https://github.com/kiddin9/openwrt-cloudreve.git
-mv cloudreve ../
-mv luci-app-cloudreve ../
+mv openwrt-cloudreve/cloudreve ../
+mv openwrt-cloudreve/luci-app-cloudreve ../
 cd ../
