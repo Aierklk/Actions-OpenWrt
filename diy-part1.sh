@@ -20,7 +20,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add cloudreve
-git clone https://github.com/kiddin9/openwrt-cloudreve.git
-mv openwrt-cloudreve/cloudreve package
-mv openwrt-cloudreve/luci-app-cloudreve package
+git clone https://github.com/kiddin9/openwrt-packages
+mv openwrt-packages/cloudreve package
+mv openwrt-packages/luci-app-cloudreve package
 echo 'Installed cloudreve'
